@@ -1,0 +1,69 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-card {
+  padding: 1.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.post-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #888;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.post-card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #eaeaea;
+  color: #888;
+  font-size: 0.9rem;
+}
